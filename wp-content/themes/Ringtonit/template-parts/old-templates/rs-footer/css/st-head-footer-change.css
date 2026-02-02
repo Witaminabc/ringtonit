@@ -1,0 +1,31 @@
+.rs-17 .rs-footer {
+    padding-top: 40px;
+    background-color: white;
+}
+.rs-17 .rs-footer .info-list {
+    color: black;
+}
+.rs-17 .rs-footer .footer-block h4 {
+    color: black;
+
+}
+.rs-17 .rs-footer .contacts-list li {
+    margin-bottom: 10px;
+    color: black;
+}
+.rs-17 .rs-footer .contacts-list li a{
+    margin-bottom: 10px;
+    color: black;
+}
+.rs-17 .rs-footer .contacts-list li i {
+    padding-right: 7px;
+    color: darkgreen;
+}
+.rs-17 .rs-footer .info-list li a {
+    font-size: 12px;
+    color: black;
+}
+.rs-17 .rs-footer .info-list li a:hover, .rs-17 .rs-footer .info-list li a:focus {
+    color: darkgreen;
+    text-decoration: none;
+}

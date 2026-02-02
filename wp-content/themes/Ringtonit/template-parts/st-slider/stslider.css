@@ -1,0 +1,191 @@
+
+.swiper-main-slaider-container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 400px;
+    background-color: #f8f9fa
+}
+
+@media screen and (min-width: 568px) and (orientation: landscape) {
+    .swiper-main-slaider-container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 95%;
+        width: 95%
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .swiper-main-slaider-container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 98%;
+        width: 98%
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .swiper-main-slaider-container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 98%;
+        width: 98%
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .swiper-main-slaider-container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 98%;
+        width: 98%
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .swiper-main-slaider-container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;
+        width: 80%
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .swiper-main-slaider-container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;
+        width: 80%
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .swiper-main-slaider-container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;
+        width: 80%
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .swiper-main-slaider-container {
+        padding-top: 30px;
+        padding-bottom: 30px
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .swiper-main-slaider-container {
+        padding-top: 30px;
+        padding-bottom: 30px
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .swiper-main-slaider-container {
+        padding-top: 20px;
+        padding-bottom: 20px
+    }
+}
+
+.swiper-main-slaider-container .swiper-wrapper .swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative
+}
+
+.swiper-main-slaider-container .swiper-wrapper .swiper-slide .slide-img {
+    -o-object-fit: cover;
+    font-family: "object-fit:cover";
+    object-fit: cover;
+    height: 100%
+}
+
+.swiper-main-slaider-container .swiper-wrapper .swiper-slide .slide-content {
+    width: 75%;
+    height: 100%;
+    text-align: start;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.swiper-main-slaider-container .swiper-wrapper .swiper-slide .slide-content h2 {
+    color: #fff;
+    margin-bottom: 15px
+}
+
+.swiper-main-slaider-container .swiper-wrapper .swiper-slide .slide-content p {
+    color: #e6e6e6;
+    margin-bottom: 25px
+}
+
+.swiper-main-slaider-container .swiper-wrapper .swiper-slide .slide-content .slide-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.swiper-main-slaider-container .swiper-wrapper .swiper-slide .slide-content .slide-button:hover {
+    background-color: #1e7e34
+}
+
+.swiper-main-slaider-container .swiper-pagination-new {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: -20px;
+    margin: 0 auto;
+    z-index: 1000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.swiper-main-slaider-container .swiper-pagination-new .swiper-pagination-bullet {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 12px !important;
+    height: 12px !important;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 50%;
+    margin: 0 5px
+}
+
+.swiper-main-slaider-container .swiper-pagination-new .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #28a745
+}
